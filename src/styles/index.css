@@ -1,0 +1,27 @@
+:root {
+    --primary: #1B1B1B;
+    --secondary: #C16060;
+    --tertiary: #151515;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+p, li {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+    max-width: 1300px;
+}
