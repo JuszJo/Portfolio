@@ -2,6 +2,7 @@
     --primary: #1B1B1B;
     --secondary: #C16060;
     --tertiary: #151515;
+    --text-opacity: rgba(255, 255, 255, 0.8);
 }
 
 * {
@@ -19,7 +20,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, li {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-opacity);
+    /* line-height: 1.5; */
+    line-height: 1.7;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: white;
+}
+
+.links {
+    font-size: 0.9rem;
 }
 
 .container {
