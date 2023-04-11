@@ -5,6 +5,10 @@ import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
 import project4 from "../assets/proj4.png";
 
+import arrow from "../assets/arrow.png";
+import github from "../assets/github.png";
+import message from "../assets/message.png";
+
 const project = [
     {
         index: 1,
@@ -47,16 +51,21 @@ function Template({ details }) {
     return (
         <div className={details.reverse ? "projects2" : "projects1"}>
             <div className={details.reverse ? "border2" : "border1"}></div>
-            <img className="project-image" width={600} src={details.image} alt="" />
+            <img className="project-image" width={600} src={details.image} alt="projects done" />
             <div className="project-text-section">
                 <h3 className="project-title">{details.title}</h3>
                 <p className="project-description">{details.description}</p>
                 <div className="stack-div">
                     {details.stack.map((value, index) => <span key={index} className="links stack">{value}</span>)}
                 </div>
-                <div className="source">
-                    <div className="github"></div>
-                    <div className="live"></div>
+                <div className={details.reverse ? "source2" : "source1"}>
+                    <div className={details.reverse ? "github2" : "github1"}>
+                        <img src={github} alt="github icon" />
+                        <p>Github</p>
+                    </div>
+                    <div className="live">
+                        <p>Live Site</p>
+                    </div>
                 </div>
             </div>
         </div>

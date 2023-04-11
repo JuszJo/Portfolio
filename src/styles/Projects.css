@@ -15,6 +15,9 @@
     display: flex;
     justify-content: space-between;
 }
+.projects1 {
+    text-align: right;
+}
 
 .projects2 {
     flex-direction: row-reverse;
@@ -48,4 +51,58 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.source1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.source2 {
+    display: flex;
+    align-items: center;
+}
+
+.github1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.github2 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.github img {
+    
+}
+
+.source1 .live, .source2 .live {
+    margin-left: 1.25rem;
+}
+
+.source1 .live p::before {
+    position: absolute;
+    transform: scale(1.5);
+    content: "\2022";
+    color: var(--secondary);
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -0.75rem;
+}
+
+.source2 .live p::before {
+    position: absolute;
+    transform: scale(1.5);
+    content: "\2022";
+    color: var(--secondary);
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -0.75rem;
 }
