@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 p, li {
     color: var(--text-opacity);
     line-height: 1.7;
@@ -37,6 +41,7 @@ button {
 
 .links {
     font-size: 0.9rem;
+    color: var(--text-opacity);
 }
 
 .container {

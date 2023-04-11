@@ -11,12 +11,37 @@
 }
 
 .projects1, .projects2 {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 
 .projects2 {
     flex-direction: row-reverse;
+}
+
+.border1 {
+    width: 600px;
+    height: 330px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+}
+
+.border2 {
+    width: 600px;
+    height: 330px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+}
+
+.project-image {
+    z-index: 1;
 }
 
 .project-text-section {

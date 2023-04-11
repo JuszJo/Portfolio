@@ -45,8 +45,9 @@ const project = [
 
 function Template({ details }) {
     return (
-        <div id="project1" className={details.reverse ? "projects1" : "projects2"}>
-            <img width={600} src={details.image} alt="" />
+        <div className={details.reverse ? "projects2" : "projects1"}>
+            <div className={details.reverse ? "border2" : "border1"}></div>
+            <img className="project-image" width={600} src={details.image} alt="" />
             <div className="project-text-section">
                 <h3 className="project-title">{details.title}</h3>
                 <p className="project-description">{details.description}</p>
