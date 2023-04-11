@@ -71,10 +71,9 @@ export default function Projects() {
             <div className="container" id="projects-div">
                 <h2>Things I've Built</h2>
                 <div id="project-list">
-                    <Template details={project[0]} />
-                    <Template details={project[1]} />
-                    <Template details={project[2]} />
-                    <Template details={project[3]} />
+                    {project.map(value => {
+                        return <Template key={value.index} details={value} />
+                    })}
                 </div>
             </div>
         </section>
