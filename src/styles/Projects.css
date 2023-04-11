@@ -9,3 +9,18 @@
 #projects-div h2 {
     text-align: center;
 }
+
+.projects1, .projects2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects2 {
+    flex-direction: row-reverse;
+}
+
+.project-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

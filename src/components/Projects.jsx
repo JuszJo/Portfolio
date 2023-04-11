@@ -1,9 +1,15 @@
 import "../styles/Projects.css";
 
+import project1 from "../assets/proj1.png";
+import project2 from "../assets/proj2.png";
+import project3 from "../assets/proj3.png";
+import project4 from "../assets/proj4.png";
+
 const project = [
     {
         index: 1,
-        image: undefined,
+        reverse: false,
+        image: project1,
         title: "Space Tour",
         description: "",
         stack: ["React", "HTML&CSS"]
@@ -11,7 +17,8 @@ const project = [
 
     {
         index: 2,
-        image: undefined,
+        reverse: true,
+        image: project2,
         title: "Product Page",
         description: "",
         stack: ["React" , "HTML&CSS"]
@@ -19,7 +26,8 @@ const project = [
 
     {
         index: 3,
-        image: undefined,
+        reverse: false,
+        image: project3,
         title: "Pathfinding Visualizer",
         description: "",
         stack: ["Vanilla Javascript", "HTML&CSS"]
@@ -27,17 +35,18 @@ const project = [
 
     {
         index: 4,
-        image: undefined,
+        reverse: true,
+        image: project4,
         title: "Word of Web Clone",
         description: "",
         stack: ["HTML&CSS"]
     },
 ]
 
-function Template1({ details }) {
+function Template({ details }) {
     return (
-        <div id="project1" className="projects">
-            <img src="" alt="" />
+        <div id="project1" className={details.reverse ? "projects1" : "projects2"}>
+            <img width={600} src={details.image} alt="" />
             <div className="project-text-section">
                 <h3 className="project-title">{details.title}</h3>
                 <p className="project-description">{details.description}</p>
@@ -55,37 +64,16 @@ function Template1({ details }) {
     )
 }
 
-function Template2({ details }) {
-    return (
-        <div id="project2" className="projects">
-            <img src="" alt="" />
-            <div className="project-text-section">
-                <h3 className="project-title">{details.title}</h3>
-                <p className="project-description">{details.description}</p>
-                <div className="stack-div">
-                    {details.stack.map((value, index) => {
-                        return <span key={details.index} className="links stack">{value}</span>
-                    })}
-                </div>
-                <div className="source">
-                    <div className="github"></div>
-                    <div className="live"></div>
-                </div>
-            </div>
-        </div>
-    )
-}
-
 export default function Projects() {
     return (
         <section id="projects-section">
             <div className="container" id="projects-div">
                 <h2>Things I've Built</h2>
                 <div id="project-list">
-                    <Template1 details={project[0]} />
-                    <Template2 details={project[1]} />
-                    <Template1 details={project[2]} />
-                    <Template2 details={project[3]} />
+                    <Template details={project[0]} />
+                    <Template details={project[1]} />
+                    <Template details={project[2]} />
+                    <Template details={project[3]} />
                 </div>
             </div>
         </section>
