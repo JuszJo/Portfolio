@@ -52,9 +52,7 @@ function Template({ details }) {
                 <h3 className="project-title">{details.title}</h3>
                 <p className="project-description">{details.description}</p>
                 <div className="stack-div">
-                    {details.stack.map((value, index) => {
-                        return <span key={index} className="links stack">{value}</span>
-                    })}
+                    {details.stack.map((value, index) => <span key={index} className="links stack">{value}</span>)}
                 </div>
                 <div className="source">
                     <div className="github"></div>
@@ -71,9 +69,7 @@ export default function Projects() {
             <div className="container" id="projects-div">
                 <h2>Things I've Built</h2>
                 <div id="project-list">
-                    {project.map(value => {
-                        return <Template key={value.index} details={value} />
-                    })}
+                    {project.map(value => <Template key={value.index} details={value} />)}
                 </div>
             </div>
         </section>
