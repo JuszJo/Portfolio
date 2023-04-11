@@ -35,6 +35,16 @@ h1 {
     margin-top: 3rem;
 }
 
+#arrow {
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+#message-icon {
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
 #project-cta {
     padding: 0.75rem 2rem;
 }
