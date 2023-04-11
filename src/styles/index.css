@@ -3,6 +3,7 @@
     --secondary: #C16060;
     --tertiary: #151515;
     --text-opacity: rgba(255, 255, 255, 0.8);
+    --text-opacity-2: rgba(255, 255, 255, 0.5);
 }
 
 * {
@@ -41,7 +42,7 @@ button {
 
 .links {
     font-size: 0.9rem;
-    color: var(--text-opacity);
+    /* color: var(--text-opacity); */
 }
 
 .container {

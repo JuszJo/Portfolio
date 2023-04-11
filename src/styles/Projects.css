@@ -8,6 +8,11 @@
 
 #projects-div h2 {
     text-align: center;
+    padding-top: 3rem;
+}
+
+#project-list {
+    padding: 10rem 0;
 }
 
 .projects1, .projects2 {
@@ -21,6 +26,10 @@
 
 .projects2 {
     flex-direction: row-reverse;
+}
+
+#project2, #project3, #project4 {
+    margin-top: 15rem;
 }
 
 .border1 {
@@ -45,6 +54,7 @@
 
 .project-image {
     z-index: 1;
+    align-self: center;
 }
 
 .project-text-section {
@@ -53,20 +63,41 @@
     justify-content: center;
 }
 
-.source1 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.project-text-section h5 {
+    color: var(--secondary);
 }
 
-.source2 {
+.project-description {
+    max-width: 40rem;
+    margin-top: 1.5rem;
+}
+
+.stack-div1, .stack-div2 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.stack-div1 {
+    justify-content: flex-end;
+}
+
+.stack {
+    color: var(--text-opacity-2);
+}
+
+.source1, .source2 {
     display: flex;
     align-items: center;
+    margin-top: 1rem;
+}
+
+.source1 {
+    justify-content: flex-end;
 }
 
 .github1 {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     justify-content: flex-end;
     gap: 0.5rem;
@@ -74,13 +105,8 @@
 
 .github2 {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 0.5rem;
-}
-
-.github img {
-    
 }
 
 .source1 .live, .source2 .live {

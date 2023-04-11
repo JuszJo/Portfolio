@@ -15,7 +15,7 @@ const project = [
         reverse: false,
         image: project1,
         title: "Space Tour",
-        description: "",
+        description: "A Responsive React App built as an intermediate challenge from frontend mentor, a Space Application that gives information on various planets, pilots and technologies used to reach there. it fetches data from a json file and renders it on the page with the help of state from react.",
         stack: ["React", "HTML&CSS"]
     },
 
@@ -24,7 +24,7 @@ const project = [
         reverse: true,
         image: project2,
         title: "Product Page",
-        description: "",
+        description: "A single paged React App built as an intermediate challenge from frontend mentor, an E-Commerce product page that shows different views of the product and provides functionality of adding to cart. it deals with the passing of props from a parent component to its children.",
         stack: ["React" , "HTML&CSS"]
     },
 
@@ -33,8 +33,8 @@ const project = [
         reverse: false,
         image: project3,
         title: "Pathfinding Visualizer",
-        description: "",
-        stack: ["Vanilla Javascript", "HTML&CSS"]
+        description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
+        stack: ["Vanilla Javascript", "HTML&CSS", "Algorithms"]
     },
 
     {
@@ -42,20 +42,21 @@ const project = [
         reverse: true,
         image: project4,
         title: "Word of Web Clone",
-        description: "",
+        description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
         stack: ["HTML&CSS"]
     },
 ]
 
 function Template({ details }) {
     return (
-        <div className={details.reverse ? "projects2" : "projects1"}>
+        <div id={`project${details.index}`} className={details.reverse ? "projects2" : "projects1"}>
             <div className={details.reverse ? "border2" : "border1"}></div>
             <img className="project-image" width={600} src={details.image} alt="projects done" />
             <div className="project-text-section">
+                <h5 className="links">Featured Project</h5>
                 <h3 className="project-title">{details.title}</h3>
                 <p className="project-description">{details.description}</p>
-                <div className="stack-div">
+                <div className={details.reverse ? "stack-div2" : "stack-div1"}>
                     {details.stack.map((value, index) => <span key={index} className="links stack">{value}</span>)}
                 </div>
                 <div className={details.reverse ? "source2" : "source1"}>
