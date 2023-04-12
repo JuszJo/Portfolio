@@ -7,9 +7,9 @@ export default function Navbar() {
                 <nav>
                     <p id="logo">Portfolio</p>
                     <ul>
-                        <li className="links">Home</li>
-                        <li className="links">Project</li>
-                        <li className="links">Contact</li>
+                        <li className="links"><a href="#first-page">Home</a></li>
+                        <li className="links"><a href="#projects-section">Project</a></li>
+                        <li className="links"><a href="#contact-section">Contact</a></li>
                     </ul>
                 </nav>
             </div>

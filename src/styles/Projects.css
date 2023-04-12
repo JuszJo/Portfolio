@@ -113,7 +113,7 @@
     margin-left: 1.25rem;
 }
 
-.source1 .live p::before {
+.source1 .live a::before {
     position: absolute;
     transform: scale(1.5);
     content: "\2022";
@@ -123,7 +123,7 @@
     margin-left: -0.75rem;
 }
 
-.source2 .live p::before {
+.source2 .live a::before {
     position: absolute;
     transform: scale(1.5);
     content: "\2022";

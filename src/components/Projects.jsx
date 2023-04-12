@@ -16,7 +16,9 @@ const project = [
         image: project1,
         title: "Space Tour",
         description: "A Responsive React App built as an intermediate challenge from frontend mentor, a Space Application that gives information on various planets, pilots and technologies used to reach there. it fetches data from a json file and renders it on the page with the help of state from react.",
-        stack: ["React", "HTML&CSS"]
+        stack: ["React", "HTML&CSS"],
+        github: "",
+        site: ""
     },
 
     {
@@ -25,7 +27,9 @@ const project = [
         image: project2,
         title: "Product Page",
         description: "A single paged React App built as an intermediate challenge from frontend mentor, an E-Commerce product page that shows different views of the product and provides functionality of adding to cart. it deals with the passing of props from a parent component to its children.",
-        stack: ["React" , "HTML&CSS"]
+        stack: ["React" , "HTML&CSS"],
+        github: "",
+        site: ""
     },
 
     {
@@ -34,7 +38,9 @@ const project = [
         image: project3,
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
-        stack: ["Vanilla Javascript", "HTML&CSS", "Algorithms"]
+        stack: ["Vanilla Javascript", "HTML&CSS", "Algorithms"],
+        github: "",
+        site: ""
     },
 
     {
@@ -43,7 +49,9 @@ const project = [
         image: project4,
         title: "Word of Web Clone",
         description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
-        stack: ["HTML&CSS"]
+        stack: ["HTML&CSS"],
+        github: "",
+        site: ""
     },
 ]
 
@@ -62,10 +70,10 @@ function Template({ details }) {
                 <div className={details.reverse ? "source2" : "source1"}>
                     <div className={details.reverse ? "github2" : "github1"}>
                         <img src={github} alt="github icon" />
-                        <p>Github</p>
+                        <a href={details.github} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>Github</a>
                     </div>
                     <div className="live">
-                        <p>Live Site</p>
+                        <a href={details.site} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>Live Site</a>
                     </div>
                 </div>
             </div>
