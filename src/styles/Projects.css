@@ -132,3 +132,19 @@
     display: inline-block;
     margin-left: -0.75rem;
 }
+
+#other-projects-div {
+    padding-bottom: 6rem;
+}
+
+#other-projects-div h2 {
+    padding-top: 0;
+}
+
+#other-projects-div #github {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}

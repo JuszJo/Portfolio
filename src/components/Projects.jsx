@@ -81,6 +81,15 @@ export default function Projects() {
                 <div id="project-list">
                     {project.map(value => <Template key={value.index} details={value} />)}
                 </div>
+                <div>
+                    <div id="other-projects-div">
+                        <h2>View my other projects</h2>
+                        <div id="github">
+                            <img src={github} />
+                            <p>Github</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
