@@ -5,9 +5,7 @@ import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
 import project4 from "../assets/proj4.png";
 
-import arrow from "../assets/arrow.png";
 import github from "../assets/github.png";
-import message from "../assets/message.png";
 
 const project = [
     {
@@ -17,8 +15,8 @@ const project = [
         title: "Space Tour",
         description: "A Responsive React App built as an intermediate challenge from frontend mentor, a Space Application that gives information on various planets, pilots and technologies used to reach there. it fetches data from a json file and renders it on the page with the help of state from react.",
         stack: ["React", "HTML&CSS"],
-        github: "",
-        site: ""
+        github: "https://github.com/JuszJo/space-tour",
+        site: "https://joshua-space-tour.netlify.app/"
     },
 
     {
@@ -28,8 +26,8 @@ const project = [
         title: "Product Page",
         description: "A single paged React App built as an intermediate challenge from frontend mentor, an E-Commerce product page that shows different views of the product and provides functionality of adding to cart. it deals with the passing of props from a parent component to its children.",
         stack: ["React" , "HTML&CSS"],
-        github: "",
-        site: ""
+        github: "https://github.com/JuszJo/product-page",
+        site: "https://joshua-product-page.netlify.app/"
     },
 
     {
@@ -39,8 +37,8 @@ const project = [
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
         stack: ["Vanilla Javascript", "HTML&CSS", "Algorithms"],
-        github: "",
-        site: ""
+        github: "https://github.com/JuszJo/shortest-path",
+        site: "https://juszjo.github.io/graph"
     },
 
     {
@@ -50,8 +48,8 @@ const project = [
         title: "Word of Web Clone",
         description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
         stack: ["HTML&CSS"],
-        github: "",
-        site: ""
+        github: "https://github.com/JuszJo/word-of-web-clone",
+        site: "https://github.com/JuszJo/word-of-web-clone"
     },
 ]
 
@@ -94,7 +92,7 @@ export default function Projects() {
                         <h2>View my other projects</h2>
                         <div id="github">
                             <img src={github} />
-                            <p>Github</p>
+                            <a style={{fontSize: "1.2rem", color: "var(--text-opacity)"}} href="https://github.com/JuszJo">Github</a>
                         </div>
                     </div>
                 </div>

@@ -15,22 +15,22 @@ export default function Contact() {
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam,
                 </p>
-                <button>
+                <a href="mailto:joshubaniwokoma@gmail.com">
                     <img src={message} alt=""/>
                     <a>Message</a>
-                </button>
+                </a>
                 <div id="socials-div">
                     <div className="socials">
                         <img src={linkedin} alt="" />
-                        <a href="">LinkedIn</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/joshua-ubani-wokoma-560098227/">LinkedIn</a>
                     </div>
                     <div className="socials">
                         <img src={twitter} alt="" />
-                        <a href="">Twitter</a>
+                        <a target="_blank" href="https://twitter.com/jo_codes">Twitter</a>
                     </div>
                     <div className="socials">
                         <img id="footer-github-image" src={github} alt="" />
-                        <a href="">Github</a>
+                        <a target="_blank" href="https://github.com/JuszJo">Github</a>
                     </div>
                 </div>
             </div>
