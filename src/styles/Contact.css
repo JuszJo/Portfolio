@@ -1,0 +1,13 @@
+#contact-div {
+    padding: 4rem 0;
+    background-color: var(--primary);
+}
+
+#contact-div button {
+    padding: 0.75rem 1.75rem;
+}
+
+#contact-div img {
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
