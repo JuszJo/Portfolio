@@ -15,8 +15,8 @@ export default function Contact() {
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam,
                 </p>
-                <a href="mailto:joshubaniwokoma@gmail.com">
-                    <img src={message} alt=""/>
+                <a id="mail" href="mailto:joshubaniwokoma@gmail.com">
+                    <img id="mail-icon" src={message} alt=""/>
                     <a>Message</a>
                 </a>
                 <div id="socials-div">
@@ -34,6 +34,11 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
+            <footer>
+                <div>
+                    <a href="">Designed and Built by Joshua Ubani-Wokoma</a>
+                </div>
+            </footer>
         </section>
     )
 }

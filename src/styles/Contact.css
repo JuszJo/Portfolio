@@ -16,10 +16,20 @@
     margin-top: 1.5rem;
 }
 
-#contact-div button {
+#mail {
+    border: 1px solid var(--secondary);
     margin-top: 2rem;
     padding: 0.75rem 1.75rem;
 }
+
+#mail #mail-icon {
+    vertical-align: text-bottom;
+}
+
+/* #contact-div button {
+    margin-top: 2rem;
+    padding: 0.75rem 1.75rem;
+} */
 
 #contact-div img {
     vertical-align: bottom;
@@ -45,4 +55,16 @@
 
 .socials a {
     color: var(--text-opacity);
+}
+
+footer {
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+    background-color: var(--tertiary);
+    text-align: center;
+}
+
+footer a {
+    font-size: 0.75rem;
+    color: var(--text-opacity-2);
 }

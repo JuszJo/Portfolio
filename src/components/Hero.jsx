@@ -18,8 +18,8 @@ export default function Hero() {
                             <p id="interest-p">I am based in Nigeria. I have an interest in full-stack developement, algorithms, design, creative coding and everthing in between</p>
                         </div>
                         <div id="hero-cta-div">
-                            <button id="project-cta"><img id="arrow" src={arrow} />View Projects</button>
-                            <button id="talk-cta"><img src={message} id="message-icon" />Let's Talk</button>
+                            <button id="project-cta"><img id="arrow" src={arrow} /><a href="#projects-section">View Projects</a></button>
+                            <button id="talk-cta"><img src={message} id="message-icon" /><a href="#contact-section">Let's Talk</a></button>
                         </div>
                     </div>
                 </div>
