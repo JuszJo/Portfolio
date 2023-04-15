@@ -93,10 +93,6 @@ h1 {
 }
 
 @media (max-width: 340px) {
-    #hero-cta-div {
-        
-    }
-
     #hero-cta-div button {
         padding: 0.5rem 1.5rem;
     }
