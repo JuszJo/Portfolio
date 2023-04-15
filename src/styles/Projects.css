@@ -67,9 +67,13 @@
     color: var(--secondary);
 }
 
+.project-text-section h3 {
+    margin-top: 0.5rem;
+}
+
 .project-description {
     max-width: 40rem;
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
 }
 
 .stack-div1, .stack-div2 {

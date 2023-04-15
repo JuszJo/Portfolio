@@ -11,9 +11,8 @@ export default function Contact() {
             <div id="contact-div" className="container">
                 <h2>Say Hello</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam,
+                    Have some work you need done?, hit that message button or contact me through
+                    any of the socail links below, I would love to hear from you
                 </p>
                 <a id="mail" href="mailto:joshubaniwokoma@gmail.com">
                     <img id="mail-icon" src={message} alt=""/>
