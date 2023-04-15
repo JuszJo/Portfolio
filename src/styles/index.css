@@ -56,10 +56,10 @@ button {
 }
 
 .container {
-    max-width: 85%;
+    max-width: 90%;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1400px) {
     .container {
         max-width: 1300px;
     }
