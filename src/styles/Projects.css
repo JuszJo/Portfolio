@@ -190,3 +190,20 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 700px) {
+    .project-image {
+        width: 95%;
+    }
+
+    .border1, .border2 {
+        width: 99%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .border1, .border2 {
+        height: 150px;
+    }
+}

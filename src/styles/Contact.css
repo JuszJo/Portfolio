@@ -68,3 +68,9 @@ footer a {
     font-size: 0.75rem;
     color: var(--text-opacity-2);
 }
+
+@media (max-width: 450px) {
+    #socials-div {
+        gap: 2rem;
+    }
+}
