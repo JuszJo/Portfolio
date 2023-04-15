@@ -16,7 +16,7 @@ export default function Contact() {
                 </p>
                 <a id="mail" href="mailto:joshubaniwokoma@gmail.com">
                     <img id="mail-icon" src={message} alt=""/>
-                    <a>Message</a>
+                    <p>Message</p>
                 </a>
                 <div id="socials-div">
                     <div className="socials">
