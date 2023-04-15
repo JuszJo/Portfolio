@@ -57,7 +57,9 @@ function Template({ details }) {
     return (
         <div id={`project${details.index}`} className={details.reverse ? "projects2" : "projects1"}>
             <div className={details.reverse ? "border2" : "border1"}></div>
-            <img className="project-image" width={600} src={details.image} alt="projects done" />
+            <a className="image-links" href={details.site} target="_blank" rel="norefferer">
+                <img className="project-image" width={600} src={details.image} alt="projects done" />
+            </a>
             <div className="project-text-section">
                 <h5 className="links">Featured Project</h5>
                 <h3 className="project-title">{details.title}</h3>

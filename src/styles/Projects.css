@@ -53,8 +53,17 @@
 }
 
 .project-image {
-    z-index: 1;
     align-self: center;
+    transition: all ease-in-out 0.25s;
+    cursor: pointer;
+}
+
+.image-links {
+    z-index: 1;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
 }
 
 .project-text-section {
@@ -73,7 +82,7 @@
 
 .project-description {
     max-width: 40rem;
-    margin-top: 1.25rem;
+    margin-top: 1rem;
 }
 
 .stack-div1, .stack-div2 {
