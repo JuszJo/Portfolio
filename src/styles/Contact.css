@@ -79,4 +79,8 @@ footer a {
         gap: 2rem;
         justify-content: space-between;
     }
+
+    #mail {
+        padding: 0.5rem 1.3rem;
+    }
 }
