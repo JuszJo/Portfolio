@@ -12,7 +12,7 @@ export default function Contact() {
                 <h2>Say Hello</h2>
                 <p>
                     Have some work you need done?, hit that message button or contact me through
-                    any of the socail links below, I would love to hear from you
+                    any of the social links below, I would love to hear from you.
                 </p>
                 <a id="mail" href="mailto:joshubaniwokoma@gmail.com">
                     <img id="mail-icon" src={message} alt=""/>
@@ -35,7 +35,7 @@ export default function Contact() {
             </div>
             <footer>
                 <div>
-                    <a href="">Designed and Built by Joshua Ubani-Wokoma</a>
+                    <a>Designed and Built by Joshua Ubani-Wokoma</a>
                 </div>
             </footer>
         </section>
