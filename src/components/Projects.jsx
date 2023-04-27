@@ -4,12 +4,23 @@ import project1 from "../assets/proj1.png";
 import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
 import project4 from "../assets/proj4.png";
+import project5 from "../assets/proj5.png";
 
 import github from "../assets/github.png";
 
 const project = [
     {
         index: 1,
+        reverse: true,
+        image: project5,
+        title: "Chat Web App",
+        description: "A Realtime messaging app that enables users connected on the same network to communicate with themselves.",
+        stack: ["Javascript", "Socket.IO"],
+        github: "https://github.com/JuszJo/private-messenger",
+        site: "https://joshua-messenger.onrender.com/"
+    },
+    {
+        index: 2,
         reverse: false,
         image: project1,
         title: "Space Tour",
@@ -20,7 +31,7 @@ const project = [
     },
 
     {
-        index: 2,
+        index: 3,
         reverse: true,
         image: project2,
         title: "Product Page",
@@ -31,7 +42,7 @@ const project = [
     },
 
     {
-        index: 3,
+        index: 4,
         reverse: false,
         image: project3,
         title: "Pathfinding Visualizer",
@@ -42,7 +53,7 @@ const project = [
     },
 
     {
-        index: 4,
+        index: 5,
         reverse: true,
         image: project4,
         title: "Word of Web Clone",
