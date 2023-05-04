@@ -28,7 +28,7 @@ const project = [
         description: "A Website that enables users to search for their favourite artist using the Spotify API and returns information about said artist.",
         stack: ["Node.js", "EJS", "Javascript"],
         github: "https://github.com/JuszJo/music-spotify",
-        site: "https://github.com/JuszJo/music-spotify"
+        site: "https://joshua-spotify-search.onrender.com"
     },
     {
         index: 3,
