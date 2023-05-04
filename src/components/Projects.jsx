@@ -5,13 +5,14 @@ import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
 import project4 from "../assets/proj4.png";
 import project5 from "../assets/proj5.png";
+import project6 from "../assets/proj6.png";
 
 import github from "../assets/github.png";
 
 const project = [
     {
         index: 1,
-        reverse: true,
+        reverse: false,
         image: project5,
         title: "Chat Web App",
         description: "A Realtime messaging app that enables users connected on the same network to communicate with themselves.",
@@ -21,6 +22,16 @@ const project = [
     },
     {
         index: 2,
+        reverse: true,
+        image: project6,
+        title: "Spotify Artist Search",
+        description: "A Website that enables users to search for their favourite artist using the Spotify API and returns information about said artist.",
+        stack: ["Node.js", "EJS", "Javascript"],
+        github: "https://github.com/JuszJo/music-spotify",
+        site: "https://github.com/JuszJo/music-spotify"
+    },
+    {
+        index: 3,
         reverse: false,
         image: project1,
         title: "Space Tour",
@@ -29,9 +40,8 @@ const project = [
         github: "https://github.com/JuszJo/space-tour",
         site: "https://joshua-space-tour.netlify.app/"
     },
-
     {
-        index: 3,
+        index: 4,
         reverse: true,
         image: project2,
         title: "Product Page",
@@ -40,9 +50,8 @@ const project = [
         github: "https://github.com/JuszJo/product-page",
         site: "https://joshua-product-page.netlify.app/"
     },
-
     {
-        index: 4,
+        index: 5,
         reverse: false,
         image: project3,
         title: "Pathfinding Visualizer",
@@ -51,9 +60,8 @@ const project = [
         github: "https://github.com/JuszJo/shortest-path",
         site: "https://juszjo.github.io/graph"
     },
-
     {
-        index: 5,
+        index: 6,
         reverse: true,
         image: project4,
         title: "Word of Web Clone",
