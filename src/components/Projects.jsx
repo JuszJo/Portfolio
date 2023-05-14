@@ -6,6 +6,7 @@ import project3 from "../assets/proj3.png";
 import project4 from "../assets/proj4.png";
 import project5 from "../assets/proj5.png";
 import project6 from "../assets/proj6.png";
+import project7 from "../assets/proj7.png";
 
 import github from "../assets/github.png";
 
@@ -16,7 +17,7 @@ const project = [
         image: project5,
         title: "Chat Web App",
         description: "A Realtime messaging app that enables users connected on the same network to communicate with themselves.",
-        stack: ["Javascript", "Socket.IO"],
+        stack: ["Javascript", "Node.js", "Socket.IO"],
         github: "https://github.com/JuszJo/private-messenger",
         site: "https://joshua-messenger.onrender.com/"
     },
@@ -33,6 +34,16 @@ const project = [
     {
         index: 3,
         reverse: false,
+        image: project7,
+        title: "Pokedex App",
+        description: "A Pokedex Web App that utilises the power of React, Typescript and the new version of React Routers' Data API's to enables users search for their favourite pokemon and view some information about them using the pokemon api",
+        stack: ["React", "Typescript", "React-Router"],
+        github: "https://github.com/JuszJo/pokemon-app",
+        site: "https://joshua-pokedex.netlify.app/"
+    },
+    {
+        index: 4,
+        reverse: true,
         image: project1,
         title: "Space Tour",
         description: "A Responsive React App built as an intermediate challenge from frontend mentor, a Space Application that gives information on various planets, pilots and technologies used to reach there. it fetches data from a json file and renders it on the page with the help of state from react.",
@@ -41,8 +52,8 @@ const project = [
         site: "https://joshua-space-tour.netlify.app/"
     },
     {
-        index: 4,
-        reverse: true,
+        index: 5,
+        reverse: false,
         image: project2,
         title: "Product Page",
         description: "A single paged React App built as an intermediate challenge from frontend mentor, an E-Commerce product page that shows different views of the product and provides functionality of adding to cart. it deals with the passing of props from a parent component to its children.",
@@ -51,8 +62,8 @@ const project = [
         site: "https://joshua-product-page.netlify.app/"
     },
     {
-        index: 5,
-        reverse: false,
+        index: 6,
+        reverse: true,
         image: project3,
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
@@ -61,8 +72,8 @@ const project = [
         site: "https://juszjo.github.io/graph"
     },
     {
-        index: 6,
-        reverse: true,
+        index: 7,
+        reverse: false,
         image: project4,
         title: "Word of Web Clone",
         description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
