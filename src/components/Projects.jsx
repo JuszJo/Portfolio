@@ -7,12 +7,22 @@ import project4 from "../assets/proj4.png";
 import project5 from "../assets/proj5.png";
 import project6 from "../assets/proj6.png";
 import project7 from "../assets/proj7.png";
+import project8 from "../assets/proj8.png";
 
 import github from "../assets/github.png";
 
 const project = [
     {
         index: 1,
+        image: project8,
+        title: "Jobnb",
+        description: "Designed and launched a standout house image sharing platform. Started as an Airbnb-like concept but with a twist, I handled end-to-end development — from building the database, APIs, to the frontend. Inclusive of user authentication, sessions, and property uploads.",
+        stack: ["React", "Node.js", "MongoDB"],
+        github: "https://github.com/JuszJo/air-bnb-clone-client-",
+        site: "https://jobnb.netlify.app/"
+    },
+    {
+        index: 2,
         image: project5,
         title: "Chat Web App",
         description: "A Realtime messaging app that enables users connected on the same network to communicate with themselves.",
@@ -21,7 +31,7 @@ const project = [
         site: "https://joshua-messenger.onrender.com/"
     },
     {
-        index: 2,
+        index: 3,
         image: project6,
         title: "Spotify Artist Search",
         description: "A Website that enables users to search for their favourite artist using the Spotify API and returns information about said artist.",
@@ -30,7 +40,7 @@ const project = [
         site: "https://joshua-spotify-search.onrender.com"
     },
     {
-        index: 3,
+        index: 4,
         image: project7,
         title: "Pokedex App",
         description: "A Pokedex Web App that utilises the power of React, Typescript and the new version of React Routers' Data API's to enables users search for their favourite pokemon and view some information about them using the pokemon api",
@@ -39,7 +49,7 @@ const project = [
         site: "https://joshua-pokedex.netlify.app/"
     },
     {
-        index: 4,
+        index: 5,
         image: project1,
         title: "Space Tour",
         description: "A Responsive React App built as an intermediate challenge from frontend mentor, a Space Application that gives information on various planets, pilots and technologies used to reach there. it fetches data from a json file and renders it on the page with the help of state from react.",
@@ -48,7 +58,7 @@ const project = [
         site: "https://joshua-space-tour.netlify.app/"
     },
     {
-        index: 5,
+        index: 6,
         image: project2,
         title: "Product Page",
         description: "A single paged React App built as an intermediate challenge from frontend mentor, an E-Commerce product page that shows different views of the product and provides functionality of adding to cart. it deals with the passing of props from a parent component to its children.",
@@ -57,7 +67,7 @@ const project = [
         site: "https://joshua-product-page.netlify.app/"
     },
     {
-        index: 6,
+        index: 7,
         image: project3,
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
@@ -66,7 +76,7 @@ const project = [
         site: "https://juszjo.github.io/graph"
     },
     {
-        index: 7,
+        index: 8,
         image: project4,
         title: "Word of Web Clone",
         description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
