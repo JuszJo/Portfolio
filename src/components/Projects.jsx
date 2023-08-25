@@ -16,7 +16,7 @@ const project = [
         index: 1,
         image: project8,
         title: "Jobnb",
-        description: "Designed and launched a standout house image sharing platform. Started as an Airbnb-like concept but with a twist, I handled end-to-end development — from building the database, APIs, to the frontend. Inclusive of user authentication, sessions, and property uploads.",
+        description: "Designed and launched a standout house image sharing platform. Started as an Airbnb-like concept but with a twist, I handled end-to-end development — from implementing the database, making the api routes, to the designing and building the frontend. Inclusive of user authentication, sessions, and property uploads.",
         stack: ["React", "Node.js", "MongoDB"],
         github: "https://github.com/JuszJo/air-bnb-clone-client-",
         site: "https://jobnb.netlify.app/"
