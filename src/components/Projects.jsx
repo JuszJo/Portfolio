@@ -8,6 +8,8 @@ import project5 from "../assets/proj5.png";
 import project6 from "../assets/proj6.png";
 import project7 from "../assets/proj7.png";
 import project8 from "../assets/proj8.png";
+import project9 from "../assets/proj9.png";
+import project10 from "../assets/proj10.png";
 
 import github from "../assets/github.png";
 
@@ -23,6 +25,15 @@ const project = [
     },
     {
         index: 2,
+        image: project9,
+        title: "Purity Healthcare",
+        description: "Designed and developed a landing page for a health care provider which showcases the services provided, testimonials and contact details.",
+        stack: ["HTML", "CSS"],
+        // github: "https://github.com/JuszJo/",
+        site: "https://purityhealthcare.com/"
+    },
+    {
+        index: 3,
         image: project5,
         title: "Chat Web App",
         description: "A Realtime messaging app that enables users connected on the same network to communicate with themselves.",
@@ -31,7 +42,7 @@ const project = [
         site: "https://joshua-messenger.onrender.com/"
     },
     {
-        index: 3,
+        index: 4,
         image: project6,
         title: "Spotify Artist Search",
         description: "A Website that enables users to search for their favourite artist using the Spotify API and returns information about said artist.",
@@ -40,7 +51,7 @@ const project = [
         site: "https://joshua-spotify-search.onrender.com"
     },
     {
-        index: 4,
+        index: 5,
         image: project7,
         title: "Pokedex App",
         description: "A Pokedex Web App that utilises the power of React, Typescript and the new version of React Routers' Data API's to enables users search for their favourite pokemon and view some information about them using the pokemon api",
@@ -49,25 +60,7 @@ const project = [
         site: "https://joshua-pokedex.netlify.app/"
     },
     {
-        index: 5,
-        image: project1,
-        title: "Space Tour",
-        description: "A Responsive React App built as an intermediate challenge from frontend mentor, a Space Application that gives information on various planets, pilots and technologies used to reach there. it fetches data from a json file and renders it on the page with the help of state from react.",
-        stack: ["React", "HTML&CSS"],
-        github: "https://github.com/JuszJo/space-tour",
-        site: "https://joshua-space-tour.netlify.app/"
-    },
-    {
         index: 6,
-        image: project2,
-        title: "Product Page",
-        description: "A single paged React App built as an intermediate challenge from frontend mentor, an E-Commerce product page that shows different views of the product and provides functionality of adding to cart. it deals with the passing of props from a parent component to its children.",
-        stack: ["React" , "HTML&CSS"],
-        github: "https://github.com/JuszJo/product-page",
-        site: "https://joshua-product-page.netlify.app/"
-    },
-    {
-        index: 7,
         image: project3,
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
@@ -76,7 +69,7 @@ const project = [
         site: "https://juszjo.github.io/graph"
     },
     {
-        index: 8,
+        index: 7,
         image: project4,
         title: "Word of Web Clone",
         description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
@@ -101,10 +94,10 @@ function Template({ details, index }) {
                     {details.stack.map((value, index) => <span key={index} className="links stack">{value}</span>)}
                 </div>
                 <div className={index % 2 != 0 ? "source2" : "source1"}>
-                    <div className={index % 2 != 0 ? "github2" : "github1"}>
+                    {details.github && <div className={index % 2 != 0 ? "github2" : "github1"}>
                         <img src={github} alt="github icon" />
                         <a href={details.github} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>Github</a>
-                    </div>
+                    </div>}
                     <div className="live">
                         <a href={details.site} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>Live Site</a>
                     </div>
