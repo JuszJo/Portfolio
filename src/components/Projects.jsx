@@ -1,20 +1,22 @@
 import "../styles/Projects.css";
 
-import project1 from "../assets/proj1.png";
-import project2 from "../assets/proj2.png";
+// import project1 from "../assets/proj1.png";
+// import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
-import project4 from "../assets/proj4.png";
-import project5 from "../assets/proj5.png";
-import project6 from "../assets/proj6.png";
-import project7 from "../assets/proj7.png";
-import project8 from "../assets/proj8.png";
+// import project4 from "../assets/proj4.png";
+// import project5 from "../assets/proj5.png";
+// import project6 from "../assets/proj6.png";
+// import project7 from "../assets/proj7.png";
+// import project8 from "../assets/proj8.png";
 import project9 from "../assets/proj9.png";
-import project10 from "../assets/proj10.png";
+// import project10 from "../assets/proj10.png";
+import project11 from "../assets/proj11.png";
+// import project12 from "../assets/proj12.png";
 
 import github from "../assets/github.png";
 
 const project = [
-    {
+    /* {
         index: 1,
         image: project8,
         title: "Jobnb",
@@ -22,6 +24,14 @@ const project = [
         stack: ["React", "Node.js", "MongoDB"],
         github: "https://github.com/JuszJo/air-bnb-clone-client-",
         site: "https://jobnb.netlify.app/"
+    }, */
+    {
+        index: 1,
+        image: project11,
+        title: "Quaga Web App",
+        description: "Quaga is a full-featured property management platform built for landlords, property managers, and letting agents. It streamlines rental operations by combining essential tools into a single, easy-to-use web application.",
+        stack: ["React", "Typescript", "Node.js", "Redis", "MongoDB"],
+        site: "https://quagapro.com/web"
     },
     {
         index: 2,
@@ -32,7 +42,7 @@ const project = [
         // github: "https://github.com/JuszJo/",
         site: "https://purityhealthcare.com/"
     },
-    {
+    /* {
         index: 3,
         image: project5,
         title: "Chat Web App",
@@ -40,8 +50,8 @@ const project = [
         stack: ["Javascript", "Node.js", "Socket.IO"],
         github: "https://github.com/JuszJo/private-messenger",
         site: "https://joshua-messenger.onrender.com/"
-    },
-    {
+    }, */
+    /* {
         index: 4,
         image: project6,
         title: "Spotify Artist Search",
@@ -49,8 +59,8 @@ const project = [
         stack: ["Node.js", "EJS", "Javascript"],
         github: "https://github.com/JuszJo/music-spotify",
         site: "https://joshua-spotify-search.onrender.com"
-    },
-    {
+    }, */
+    /* {
         index: 5,
         image: project7,
         title: "Pokedex App",
@@ -58,7 +68,7 @@ const project = [
         stack: ["React", "Typescript", "React-Router"],
         github: "https://github.com/JuszJo/pokemon-app",
         site: "https://joshua-pokedex.netlify.app/"
-    },
+    }, */
     {
         index: 6,
         image: project3,
@@ -68,7 +78,7 @@ const project = [
         github: "https://github.com/JuszJo/shortest-path",
         site: "https://juszjo.github.io/graph"
     },
-    {
+    /* {
         index: 7,
         image: project4,
         title: "Word of Web Clone",
@@ -76,7 +86,7 @@ const project = [
         stack: ["HTML&CSS"],
         github: "https://github.com/JuszJo/word-of-web-clone",
         site: "https://github.com/JuszJo/word-of-web-clone"
-    },
+    }, */
 ]
 
 function Template({ details, index }) {
@@ -113,7 +123,7 @@ export default function Projects() {
             <div className="container" id="projects-div">
                 <h2>Things I've Built</h2>
                 <div id="project-list">
-                    {project.map((value, index) => <Template key={value.index} details={value} index={index} />)}
+                    {project.map((value, index) => <Template key={index} details={value} index={index} />)}
                 </div>
                 <div>
                     <div id="other-projects-div">
