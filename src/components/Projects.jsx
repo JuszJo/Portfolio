@@ -5,7 +5,7 @@ import "../styles/Projects.css";
 import project3 from "../assets/proj3.png";
 // import project4 from "../assets/proj4.png";
 // import project5 from "../assets/proj5.png";
-// import project6 from "../assets/proj6.png";
+import project6 from "../assets/proj6.png";
 // import project7 from "../assets/proj7.png";
 // import project8 from "../assets/proj8.png";
 import project9 from "../assets/proj9.png";
@@ -51,7 +51,7 @@ const project = [
         github: "https://github.com/JuszJo/private-messenger",
         site: "https://joshua-messenger.onrender.com/"
     }, */
-    /* {
+    {
         index: 4,
         image: project6,
         title: "Spotify Artist Search",
@@ -59,7 +59,7 @@ const project = [
         stack: ["Node.js", "EJS", "Javascript"],
         github: "https://github.com/JuszJo/music-spotify",
         site: "https://joshua-spotify-search.onrender.com"
-    }, */
+    },
     /* {
         index: 5,
         image: project7,
