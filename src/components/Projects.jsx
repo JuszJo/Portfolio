@@ -13,46 +13,35 @@ import project9 from "../assets/proj9.png";
 import project11 from "../assets/proj11.png";
 // import project12 from "../assets/proj12.png";
 
+import project13 from "../assets/proj13.png";
+import project14 from "../assets/proj14.png";
+
 import github from "../assets/github.png";
 
 const project = [
-    /* {
-        index: 1,
-        image: project8,
-        title: "Jobnb",
-        description: "Designed and launched a standout house image sharing platform. Started as an Airbnb-like concept but with a twist, I handled end-to-end development — from implementing the database, making the api routes, to the designing and building the frontend. Inclusive of user authentication, sessions, and property uploads.",
-        stack: ["React", "Node.js", "MongoDB"],
-        github: "https://github.com/JuszJo/air-bnb-clone-client-",
-        site: "https://jobnb.netlify.app/"
-    }, */
     {
-        index: 1,
+        image: project14,
+        title: "Quaga | Mobile App",
+        description: "The Quaga mobile app puts the essentials of property management in your pocket. Manage tenants, mark up maintenance requests, share documents easily and so much more, wherever you are. Developed for Quaga Global LTD.",
+        stack: ["React Native", "Expo", "Typescript", "Node.js", "MongoDB"],
+        site: "https://apps.apple.com/ng/app/quaga/id6748447263",
+        appStore: true
+    },
+    {
         image: project11,
-        title: "Quaga Web App",
-        description: "Quaga is a full-featured property management platform built for landlords, property managers, and letting agents. It streamlines rental operations by combining essential tools into a single, easy-to-use web application.",
+        title: "Quaga | Web App",
+        description: "Quaga is a full-featured property management platform built for landlords, property managers, and letting agents. It streamlines rental operations by combining essential tools into a single, easy-to-use web application. Developed for Quaga Global LTD.",
         stack: ["React", "Typescript", "Node.js", "Redis", "MongoDB"],
         site: "https://quagapro.com/web"
     },
     {
-        index: 2,
-        image: project9,
+        image: project13,
         title: "Purity Healthcare",
         description: "Designed and developed a landing page for a health care provider which showcases the services provided, testimonials and contact details.",
         stack: ["HTML", "CSS"],
-        // github: "https://github.com/JuszJo/",
         site: "https://purityhealthcare.com/"
     },
-    /* {
-        index: 3,
-        image: project5,
-        title: "Chat Web App",
-        description: "A Realtime messaging app that enables users connected on the same network to communicate with themselves.",
-        stack: ["Javascript", "Node.js", "Socket.IO"],
-        github: "https://github.com/JuszJo/private-messenger",
-        site: "https://joshua-messenger.onrender.com/"
-    }, */
     {
-        index: 4,
         image: project6,
         title: "Spotify Artist Search",
         description: "A Website that enables users to search for their favourite artist using the Spotify API and returns information about said artist.",
@@ -60,17 +49,7 @@ const project = [
         github: "https://github.com/JuszJo/music-spotify",
         site: "https://joshua-spotify-search.onrender.com"
     },
-    /* {
-        index: 5,
-        image: project7,
-        title: "Pokedex App",
-        description: "A Pokedex Web App that utilises the power of React, Typescript and the new version of React Routers' Data API's to enables users search for their favourite pokemon and view some information about them using the pokemon api",
-        stack: ["React", "Typescript", "React-Router"],
-        github: "https://github.com/JuszJo/pokemon-app",
-        site: "https://joshua-pokedex.netlify.app/"
-    }, */
     {
-        index: 6,
         image: project3,
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
@@ -78,15 +57,6 @@ const project = [
         github: "https://github.com/JuszJo/shortest-path",
         site: "https://juszjo.github.io/graph"
     },
-    /* {
-        index: 7,
-        image: project4,
-        title: "Word of Web Clone",
-        description: "A simple clone of the website \"Word of Web\" built using HTML and CSS. ",
-        stack: ["HTML&CSS"],
-        github: "https://github.com/JuszJo/word-of-web-clone",
-        site: "https://github.com/JuszJo/word-of-web-clone"
-    }, */
 ]
 
 function Template({ details, index }) {
@@ -94,7 +64,9 @@ function Template({ details, index }) {
         <div id={`project${index + 1}`} className={index % 2 != 0 ? "projects2" : "projects1"}>
             <div className={index % 2 != 0 ? "border2" : "border1"}></div>
             <a className="image-links" href={details.site} target="_blank" rel="norefferer">
-                <img className="project-image" width={600} src={details.image} alt="projects done" />
+                <div className="image-wrapper">
+                    <img className="project-image" src={details.image} alt="projects done" />
+                </div>
             </a>
             <div className="project-text-section">
                 <h5 className="links">Featured Project</h5>
@@ -109,7 +81,7 @@ function Template({ details, index }) {
                         <a href={details.github} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>Github</a>
                     </div>}
                     <div className="live">
-                        <a href={details.site} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>Live Site</a>
+                        <a href={details.site} target="_blank" style={{fontSize: "1.2rem", color: "var(--text-opacity)"}}>{details.appStore ? "App Store" : "Live Site"}</a>
                     </div>
                 </div>
             </div>

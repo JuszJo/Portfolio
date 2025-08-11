@@ -33,29 +33,41 @@
 }
 
 .border1 {
-    width: 600px;
-    height: 330px;
+    width: 700px;
+    height: 450px;
     position: absolute;
     top: -25px;
     left: -25px;
     background-color: transparent;
     border: 2px solid var(--secondary);
+    border-radius: 8px;
 }
 
 .border2 {
-    width: 600px;
-    height: 330px;
+    width: 700px;
+    height: 450px;
     position: absolute;
     top: -25px;
     right: -25px;
     background-color: transparent;
     border: 2px solid var(--secondary);
+    border-radius: 8px;
+}
+
+.image-wrapper {
+    width: 700px;
+    aspect-ratio: 4 / 3;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .project-image {
     align-self: center;
     transition: all ease-in-out 0.25s;
     cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .image-links {
@@ -103,6 +115,7 @@
     display: flex;
     align-items: center;
     margin-top: 1rem;
+    gap: 0.5rem;
 }
 
 .source1 {
@@ -133,7 +146,7 @@
     color: var(--secondary);
     font-weight: bold;
     display: inline-block;
-    margin-left: -0.75rem;
+    margin-left: -0.95rem;
 }
 
 .source2 .live a::before {
@@ -143,7 +156,7 @@
     color: var(--secondary);
     font-weight: bold;
     display: inline-block;
-    margin-left: -0.75rem;
+    margin-left: -0.95rem;
 }
 
 #other-projects-div {
@@ -192,9 +205,13 @@
 }
 
 @media (max-width: 700px) {
-    .project-image {
-        width: 95%;
+    .image-wrapper {
+        width: 100%;
     }
+
+    /* .project-image {
+        width: 95%;
+    } */
 
     .border1, .border2 {
         width: 99%;
