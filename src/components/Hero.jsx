@@ -15,7 +15,7 @@ export default function Hero() {
                             <p id="intro-p" className="links">Hello, my name is</p>
                             <h1>Joshua Ubani-Wokoma.</h1>
                             <h2 id="h2" style={{color: "rgba(255, 255, 255, 0.8)"}}>A Software Engineer.</h2>
-                            <p id="interest-p">I am based in Nigeria. I have an interest in full-stack developement, algorithms, design, creative coding and everthing in between</p>
+                            <p id="interest-p">I build both web and mobile products that feel straightforward and useful.</p>
                         </div>
                         <div id="hero-cta-div">
                             <button id="project-cta"><img id="arrow" src={arrow} /><a href="#projects-section">View Projects</a></button>
