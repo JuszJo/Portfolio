@@ -1,20 +1,11 @@
 import "../styles/Projects.css";
 
-// import project1 from "../assets/proj1.png";
-// import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
-// import project4 from "../assets/proj4.png";
-// import project5 from "../assets/proj5.png";
-import project6 from "../assets/proj6.png";
-// import project7 from "../assets/proj7.png";
-// import project8 from "../assets/proj8.png";
-import project9 from "../assets/proj9.png";
-// import project10 from "../assets/proj10.png";
-import project11 from "../assets/proj11.png";
-// import project12 from "../assets/proj12.png";
+import project6 from "../assets/proj6.webp"
+import project11 from "../assets/proj11.webp";
 
-import project13 from "../assets/proj13.png";
-import project14 from "../assets/proj14.png";
+import project13 from "../assets/proj13.webp";
+import project14 from "../assets/proj14.webp";
 
 import github from "../assets/github.png";
 
