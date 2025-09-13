@@ -21,7 +21,7 @@ export default function Contact() {
                 <div id="socials-div">
                     <div className="socials">
                         <img src={linkedin} alt="" />
-                        <a target="_blank" href="www.linkedin.com/in/joshua-ubani-wokoma-560098227">LinkedIn</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/joshua-ubani-wokoma-560098227">LinkedIn</a>
                     </div>
                     <div className="socials">
                         <img src={twitter} alt="" />
