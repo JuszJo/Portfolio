@@ -47,11 +47,13 @@ h1 {
 
 #project-cta {
     padding: 0.75rem 2rem;
+    cursor: pointer;
 }
 
 #talk-cta {
     padding: 0.75rem 2rem;
     margin-left: 2rem;
+    cursor: pointer;
 }
 
 @media (max-width: 850px) {

@@ -18,8 +18,18 @@ export default function Hero() {
                             <p id="interest-p">I build both web and mobile products that feel straightforward and useful.</p>
                         </div>
                         <div id="hero-cta-div">
-                            <button id="project-cta"><img id="arrow" src={arrow} /><a href="#projects-section">View Projects</a></button>
-                            <button id="talk-cta"><img src={message} id="message-icon" /><a href="#contact-section">Let's Talk</a></button>
+                            <a href="#projects-section">
+                                <button id="project-cta">
+                                    <img id="arrow" src={arrow} />
+                                    View Projects
+                                </button>
+                            </a>
+                            <a href="#contact-section">
+                                <button id="talk-cta">
+                                    <img src={message} id="message-icon" />
+                                    Let's Talk
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
