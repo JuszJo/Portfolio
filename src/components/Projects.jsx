@@ -33,14 +33,6 @@ const project = [
         site: "https://purityhealthcare.com/"
     },
     {
-        image: project6,
-        title: "Spotify Artist Search",
-        description: "A Website that enables users to search for their favourite artist using the Spotify API and returns information about said artist.",
-        stack: ["Node.js", "EJS", "Javascript"],
-        github: "https://github.com/JuszJo/music-spotify",
-        site: "https://joshua-spotify-search.onrender.com"
-    },
-    {
         image: project3,
         title: "Pathfinding Visualizer",
         description: "A Website that visualizes the process of Breadth First Search and how it navigates its way to locate specific nodes in a graph. built with vanilla javascript(no canvas e.t.c).",
