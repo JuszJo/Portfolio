@@ -18,13 +18,13 @@ const project = [
         site: "https://apps.apple.com/ng/app/quaga/id6748447263",
         appStore: true
     },
-    {
+    /* {
         image: project11,
         title: "Quaga | Web App",
         description: "Quaga is a full-featured property management platform built for landlords, property managers, and letting agents. It streamlines rental operations by combining essential tools into a single, easy-to-use web application. Developed for Quaga Global LTD.",
         stack: ["React", "Typescript", "Node.js", "Redis", "MongoDB"],
         site: "https://quagapro.com"
-    },
+    }, */
     {
         image: project13,
         title: "Purity Healthcare",
