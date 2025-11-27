@@ -5,6 +5,9 @@ import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
 import github from "../assets/github.png";
 
+import { MessageSquareText } from "lucide-react";
+
+
 export default function Contact() {
   return (
     <section id="contact-section">
@@ -15,7 +18,7 @@ export default function Contact() {
           any of the social links below, I would love to hear from you.
         </p>
         <a id="mail" href="mailto:joshubaniwokoma@gmail.com">
-          <img id="mail-icon" src={message} alt="" />
+          <MessageSquareText id="message-icon" size={14} stroke="var(--secondary)" />
           <p>Message</p>
         </a>
         <div id="socials-div">

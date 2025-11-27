@@ -1,8 +1,8 @@
 import Navbar from "./Navbar";
 import "../styles/Hero.css";
 
-import arrow from "../assets/arrow.png";
 import message from "../assets/message.png";
+import { ArrowDown, MessageSquareText } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -20,13 +20,15 @@ export default function Hero() {
             <div id="hero-cta-div">
               <a href="#projects-section">
                 <button id="project-cta">
-                  <img id="arrow" src={arrow} />
+                  <ArrowDown id="arrow" size={16} stroke="var(--secondary)" />
+                  {/* <img id="arrow" src={arrow} /> */}
                   View Projects
                 </button>
               </a>
               <a href="#contact-section">
                 <button id="talk-cta">
-                  <img src={message} id="message-icon" />
+                  {/* <img src={message} id="message-icon" /> */}
+                  <MessageSquareText id="message-icon" size={14} stroke="var(--secondary)" />
                   Let's Talk
                 </button>
               </a>
