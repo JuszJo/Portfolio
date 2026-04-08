@@ -7,6 +7,7 @@ function MobileMenu() {
       <ul className="container" style={{ margin: "auto" }}>
         <li className="links"><a href="#first-page">Home</a></li>
         <li className="links"><a href="#projects-section">Project</a></li>
+        <li className="links"><a target="_blank" rel="noopener noreferrer" href="https://blog.juwok.com">Blog</a></li>
         <li className="links"><a href="#contact-section">Contact</a></li>
       </ul>
     </div>
@@ -29,6 +30,7 @@ export default function Navbar() {
           <ul>
             <li className="links"><a href="#first-page">Home</a></li>
             <li className="links"><a href="#projects-section">Project</a></li>
+            <li className="links"><a target="_blank" rel="noopener noreferrer" href="https://blog.juwok.com">Blog</a></li>
             <li className="links"><a href="#contact-section">Contact</a></li>
           </ul>
           <div id="menu-wrap" onClick={displayLinks}>
